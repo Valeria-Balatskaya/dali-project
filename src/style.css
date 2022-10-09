@@ -1,13 +1,13 @@
 body {
     background-color: black;
 }
-.first-text {
-    text-align: center;
-    position: relative;
-    bottom: 400px;
-}
 h2 {
     text-align: center;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: #fff;
+    opacity: 0.5;
+
 }
 .hr {
     height: 3px;
@@ -21,4 +21,84 @@ h2 {
 h1 {
     font-family: 'Passions Conflict', cursive;
     color: white;
+    text-align: center;
+    font-size: 130px;
+    margin-bottom: 0px;
+}
+.first {
+margin-top: 175px;
+}
+.portrait {
+    margin-left: 0;
+}
+h3 {
+    text-align: center;
+    font-family: 'Karma', serif;
+    color: azure;
+    opacity: 0.5;
+    margin-top: 0px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.learn {
+    text-decoration: none;
+    border: 1px solid white;
+    display: block;
+    font-family: 'Karma', serif;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 170px;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 10px 0px;
+    background-color: #fff;
+    color: black;
+}
+.learn:hover {
+    background-color: black;
+    color: #fff ;
+    transition: 300ms ease-in-out;
+}
+.prtr {
+    border: 10px solid #fff;
+    box-shadow: border 10px solid #fff;;
+}
+.abt {
+    max-width: 1000px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+p {
+    color: rgb(93, 92, 92);
+    font-size: 20px;
+    font-family: 'Karma',
+        serif;;
+}
+.about {
+    padding-bottom: 0px;
+    text-align: left;
+    margin-left: 160px;
+}
+h4 {
+    font-size: 28px;
+    font-family: 'Karma',
+        serif;
+        color: #fff;
+}
+.view {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.view:hover {
+    color:rgb(93, 92, 92);
+    text-decoration: underline;
+    transition: 300ms ease-in-out;
+}
+h5 {
+    text-align: center;
+    color: rgb(93, 92, 92);
+    margin: 30px;
+    font-weight: 400;
 }
