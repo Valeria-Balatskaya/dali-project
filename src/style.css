@@ -1,3 +1,22 @@
+@media (max-width: 500px) {
+    h4 { 
+        text-align: center; 
+    }
+    p {
+        text-align: center;
+    }
+    .about {
+        text-align: center;
+        font-size: 70px;
+    }
+    .portrait {
+        width: 500px;
+    }
+    .btm {
+        text-align: center;
+    }
+    
+}
 body {
     background-color: black;
 }
@@ -77,8 +96,6 @@ p {
 }
 .about {
     padding-bottom: 0px;
-    text-align: left;
-    margin-left: 160px;
 }
 h4 {
     font-size: 28px;
@@ -88,7 +105,6 @@ h4 {
 }
 .view {
     color: white;
-    text-decoration: none;
     font-size: 20px;
 }
 .view:hover {
@@ -101,4 +117,7 @@ h5 {
     color: rgb(93, 92, 92);
     margin: 30px;
     font-weight: 400;
+}
+.about-p {
+    margin-top: 15px;
 }
